@@ -1,0 +1,32 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "api": "file:../api",
+    "bootstrap": "^4.1.1",
+    "chai": "^4.1.2",
+    "data": "../../server/data",
+    "hash-router": "^0.4.0",
+    "ng-sweet-alert-2": "0.0.4",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-popup": "^0.9.3",
+    "react-render-image": "^1.1.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "reactstrap": "^6.2.0",
+    "sweet-alert": "^2.0.5",
+    "sweetalert2": "^7.24.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "test-logic": "mocha src/logic/",
+    "debug-test-logic": "mocha debug src/logic/"
+  }
+}

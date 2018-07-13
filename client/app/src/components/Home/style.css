@@ -1,0 +1,92 @@
+img{
+width: 100%;
+position: absolute;
+top:0;
+z-index: 0;
+height: 100%;
+}
+h1, h2,h3,h4{
+padding-bottom: 15px;
+color: rgb(165, 20, 201) !important; 
+}
+.group-create-card{
+    background: #ffffffbd;
+    background-color: rgba(61, 78, 129, 0.267) !important;
+}
+
+.button-form{
+    margin: 10%;
+    align-content: center;
+    display: grid !important;
+}
+
+.form-user {
+    background: #ffffffbd;
+    padding: 50px;
+    border-radius: 5px;
+position: relative
+;    z-index: 2;
+}
+.container-form-user {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.std-button {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin-top: 15px;
+    margin: 15px;
+}
+
+.std-button:hover {
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+.spc-button {
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    margin-top: 15px;
+    margin: 5%;
+}
+#background-group {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.spc-button:hover {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.loggout-btn{
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);    
+}
+.loggout-btn:hover{
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+}
+.std-box{
+margin-bottom: 15px;
+}
+.group-card {
+    background-color: rgba(64, 61, 65, 0.712) !important;
+    height: 65px;
+    /* width: 50%; */
+    text-align: center;
+    margin: 20px;
+}
+
+.group-card :hover {
+    background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+    height: 0px;
+    color: white !important;
+}
+.group-card a {
+    background: #ffffffbd;
+    height: 65px;
+    color: white !important;
+    
+}

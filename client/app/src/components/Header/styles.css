@@ -1,0 +1,9 @@
+.navbar  {
+    position: absolute;
+    z-index: 1;
+}
+
+.logo-name{
+    color: rgb(165, 20, 201) !important;
+text-decoration: none;
+}
